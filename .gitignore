@@ -1,43 +1,22 @@
 # Python
 __pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Virtual environment
-venv/
-.env
-.env.local
-.env.*.local
-
-# Django
-*.sqlite3
-db.sqlite3
-*.log
-*.pot
 *.pyc
 *.pyo
 *.pyd
+*.sqlite3
+*.env
+*.venv
+venv/
+env/
+ENV/
+*.log
 
-# Static files
-/staticfiles/
-media/
+# Django
+*.pot
+*.pyc
+*.mo
+*.sqlite3
 
 # IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# macOS
-.DS_Store
-
-# Render / Deployment
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.log
-*.env
